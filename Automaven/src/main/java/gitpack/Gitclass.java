@@ -14,11 +14,7 @@ public class Gitclass {
 			
 			WebDriver driver=new ChromeDriver();
 			
-			driver.get("http://operauat.softvision.com/Account/Login");
-			driver.findElement(By.xpath(".//input[@id='UserName']")).sendKeys("name");
-			driver.findElement(By.xpath(".//input[@id='Password'][@name='Password']")).sendKeys("password");
-			driver.findElement(By.xpath("//input[@type='submit'][@value='Sign in']")).click();
-			System.out.println("this is to check edit,commit and push to remote repository");
+			
 			//comment after downloading 
 		}
 //adding new comment from the git hub
