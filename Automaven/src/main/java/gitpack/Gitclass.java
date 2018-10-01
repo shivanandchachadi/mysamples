@@ -21,7 +21,7 @@ public class Gitclass {
 			System.out.println("this is to check edit,commit and push to remote repository");
 			//comment after downloading 
 		}
-
+//adding new comment from the git hub
 	//this is second comment
 	
 
