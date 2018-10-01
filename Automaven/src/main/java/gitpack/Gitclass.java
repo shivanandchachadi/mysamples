@@ -19,6 +19,7 @@ public class Gitclass {
 			driver.findElement(By.xpath(".//input[@id='Password'][@name='Password']")).sendKeys("password");
 			driver.findElement(By.xpath("//input[@type='submit'][@value='Sign in']")).click();
 			System.out.println("this is to check edit,commit and push to remote repository");
+			//comment after downloading 
 		}
 
 	//this is second comment
